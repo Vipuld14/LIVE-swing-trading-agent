@@ -1,9 +1,16 @@
 {
   "cash": 24431.47998046875,
   "initial_capital": 25000,
-  "last_run_date": "2026-07-23",
+  "last_run_date": "2026-07-24",
   "open_positions": {},
-  "pending_entries": {},
+  "pending_entries": {
+    "VZ": {
+      "ticker": "VZ",
+      "signal_date": "2026-07-24",
+      "signal_type": "breakout",
+      "atr_at_signal": 1.2827268425750082
+    }
+  },
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -105,6 +112,11 @@
       "date": "2026-07-23",
       "strategy_equity": 24431.47998046875,
       "benchmark_equity": 24919.55598264601
+    },
+    {
+      "date": "2026-07-24",
+      "strategy_equity": 24431.47998046875,
+      "benchmark_equity": 25093.769845464478
     }
   ],
   "benchmark_shares": {
