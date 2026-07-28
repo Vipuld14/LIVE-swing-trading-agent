@@ -1,7 +1,7 @@
 {
   "cash": 20025.40850830078,
   "initial_capital": 25000,
-  "last_run_date": "2026-07-27",
+  "last_run_date": "2026-07-28",
   "open_positions": {
     "VZ": {
       "ticker": "VZ",
@@ -18,10 +18,23 @@
       "trailing_activation_price": Infinity,
       "highest_price": 46.37969970703125,
       "trailing_active": false,
-      "days_held": 0
+      "days_held": 1
     }
   },
-  "pending_entries": {},
+  "pending_entries": {
+    "ADBE": {
+      "ticker": "ADBE",
+      "signal_date": "2026-07-28",
+      "signal_type": "breakout",
+      "atr_at_signal": 11.170903704995863
+    },
+    "KO": {
+      "ticker": "KO",
+      "signal_date": "2026-07-28",
+      "signal_type": "breakout",
+      "atr_at_signal": 2.0042567224991634
+    }
+  },
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -133,6 +146,11 @@
       "date": "2026-07-27",
       "strategy_equity": 24520.808479309082,
       "benchmark_equity": 25233.379597933726
+    },
+    {
+      "date": "2026-07-28",
+      "strategy_equity": 24603.458377838135,
+      "benchmark_equity": 25377.1174692588
     }
   ],
   "benchmark_shares": {
