@@ -1,7 +1,7 @@
 {
-  "cash": 12117.858360290527,
+  "cash": 8970.76342010498,
   "initial_capital": 25000,
-  "last_run_date": "2026-07-30",
+  "last_run_date": "2026-07-31",
   "open_positions": {
     "VZ": {
       "ticker": "VZ",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 46.37969970703125,
       "trailing_active": false,
-      "days_held": 3
+      "days_held": 4
     },
     "KO": {
       "ticker": "KO",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 88.6500015258789,
       "trailing_active": false,
-      "days_held": 1
+      "days_held": 2
     },
     "ADBE": {
       "ticker": "ADBE",
@@ -52,15 +52,32 @@
       "trailing_activation_price": Infinity,
       "highest_price": 249.99000549316406,
       "trailing_active": false,
-      "days_held": 1
+      "days_held": 2
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "shares": 7,
+      "entry_price": 449.5849914550781,
+      "entry_date": "2026-07-31",
+      "stop_price": 417.7859368618123,
+      "initial_stop_price": 417.7859368618123,
+      "target_price": 529.0826279382428,
+      "signal_type": "breakout",
+      "max_holding_days": 15,
+      "use_trailing_stop": false,
+      "trail_distance": 31.799054593265865,
+      "trailing_activation_price": Infinity,
+      "highest_price": 449.5849914550781,
+      "trailing_active": false,
+      "days_held": 0
     }
   },
   "pending_entries": {
     "MSFT": {
       "ticker": "MSFT",
-      "signal_date": "2026-07-30",
+      "signal_date": "2026-07-31",
       "signal_type": "breakout",
-      "atr_at_signal": 15.899527296632932
+      "atr_at_signal": 15.998703517206259
     }
   },
   "closed_trades": [
@@ -189,6 +206,11 @@
       "date": "2026-07-30",
       "strategy_equity": 24375.19822692871,
       "benchmark_equity": 25255.915048724484
+    },
+    {
+      "date": "2026-07-31",
+      "strategy_equity": 24517.84337234497,
+      "benchmark_equity": 25281.238591679794
     }
   ],
   "benchmark_shares": {
