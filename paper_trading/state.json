@@ -1,7 +1,7 @@
 {
   "cash": 2818.36336517334,
   "initial_capital": 25000,
-  "last_run_date": "2026-08-06",
+  "last_run_date": "2026-08-07",
   "open_positions": {
     "VZ": {
       "ticker": "VZ",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 46.37969970703125,
       "trailing_active": false,
-      "days_held": 8
+      "days_held": 9
     },
     "KO": {
       "ticker": "KO",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 88.6500015258789,
       "trailing_active": false,
-      "days_held": 6
+      "days_held": 7
     },
     "ADBE": {
       "ticker": "ADBE",
@@ -52,7 +52,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 249.99000549316406,
       "trailing_active": false,
-      "days_held": 6
+      "days_held": 7
     },
     "MSFT": {
       "ticker": "MSFT",
@@ -69,7 +69,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 449.5849914550781,
       "trailing_active": false,
-      "days_held": 4
+      "days_held": 5
     },
     "DIS": {
       "ticker": "DIS",
@@ -86,7 +86,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 102.54000091552734,
       "trailing_active": false,
-      "days_held": 0
+      "days_held": 1
     }
   },
   "pending_entries": {},
@@ -241,6 +241,11 @@
       "date": "2026-08-06",
       "strategy_equity": 24962.483249664307,
       "benchmark_equity": 25741.695288401304
+    },
+    {
+      "date": "2026-08-07",
+      "strategy_equity": 25045.74374771118,
+      "benchmark_equity": 25853.00734358856
     }
   ],
   "benchmark_shares": {
