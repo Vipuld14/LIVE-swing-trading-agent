@@ -1,7 +1,7 @@
 {
-  "cash": 8970.76342010498,
+  "cash": 2818.36336517334,
   "initial_capital": 25000,
-  "last_run_date": "2026-08-05",
+  "last_run_date": "2026-08-06",
   "open_positions": {
     "VZ": {
       "ticker": "VZ",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 46.37969970703125,
       "trailing_active": false,
-      "days_held": 7
+      "days_held": 8
     },
     "KO": {
       "ticker": "KO",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 88.6500015258789,
       "trailing_active": false,
-      "days_held": 5
+      "days_held": 6
     },
     "ADBE": {
       "ticker": "ADBE",
@@ -52,7 +52,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 249.99000549316406,
       "trailing_active": false,
-      "days_held": 5
+      "days_held": 6
     },
     "MSFT": {
       "ticker": "MSFT",
@@ -69,17 +69,27 @@
       "trailing_activation_price": Infinity,
       "highest_price": 449.5849914550781,
       "trailing_active": false,
-      "days_held": 3
-    }
-  },
-  "pending_entries": {
+      "days_held": 4
+    },
     "DIS": {
       "ticker": "DIS",
-      "signal_date": "2026-08-05",
+      "shares": 60,
+      "entry_price": 102.54000091552734,
+      "entry_date": "2026-08-06",
+      "stop_price": 97.67932682984119,
+      "initial_stop_price": 97.67932682984119,
+      "target_price": 114.69168612974272,
       "signal_type": "breakout",
-      "atr_at_signal": 2.4303370428430755
+      "max_holding_days": 15,
+      "use_trailing_stop": false,
+      "trail_distance": 4.860674085686151,
+      "trailing_activation_price": Infinity,
+      "highest_price": 102.54000091552734,
+      "trailing_active": false,
+      "days_held": 0
     }
   },
+  "pending_entries": {},
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -226,6 +236,11 @@
       "date": "2026-08-05",
       "strategy_equity": 24687.463661193848,
       "benchmark_equity": 25792.171999616607
+    },
+    {
+      "date": "2026-08-06",
+      "strategy_equity": 24962.483249664307,
+      "benchmark_equity": 25741.695288401304
     }
   ],
   "benchmark_shares": {
