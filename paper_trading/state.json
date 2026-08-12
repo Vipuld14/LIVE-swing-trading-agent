@@ -1,7 +1,7 @@
 {
   "cash": 2818.36336517334,
   "initial_capital": 25000,
-  "last_run_date": "2026-08-11",
+  "last_run_date": "2026-08-12",
   "open_positions": {
     "VZ": {
       "ticker": "VZ",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 46.37969970703125,
       "trailing_active": false,
-      "days_held": 11
+      "days_held": 12
     },
     "KO": {
       "ticker": "KO",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 88.6500015258789,
       "trailing_active": false,
-      "days_held": 9
+      "days_held": 10
     },
     "ADBE": {
       "ticker": "ADBE",
@@ -52,7 +52,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 249.99000549316406,
       "trailing_active": false,
-      "days_held": 9
+      "days_held": 10
     },
     "MSFT": {
       "ticker": "MSFT",
@@ -69,7 +69,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 449.5849914550781,
       "trailing_active": false,
-      "days_held": 7
+      "days_held": 8
     },
     "DIS": {
       "ticker": "DIS",
@@ -86,10 +86,17 @@
       "trailing_activation_price": Infinity,
       "highest_price": 102.54000091552734,
       "trailing_active": false,
-      "days_held": 3
+      "days_held": 4
     }
   },
-  "pending_entries": {},
+  "pending_entries": {
+    "ORCL": {
+      "ticker": "ORCL",
+      "signal_date": "2026-08-12",
+      "signal_type": "breakout",
+      "atr_at_signal": 7.590034645988342
+    }
+  },
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -256,6 +263,11 @@
       "date": "2026-08-11",
       "strategy_equity": 24959.863437652588,
       "benchmark_equity": 25881.59284017211
+    },
+    {
+      "date": "2026-08-12",
+      "strategy_equity": 24798.48328781128,
+      "benchmark_equity": 25953.01384310379
     }
   ],
   "benchmark_shares": {
