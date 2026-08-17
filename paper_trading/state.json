@@ -1,25 +1,8 @@
 {
-  "cash": 2818.36336517334,
+  "cash": 7401.163524627686,
   "initial_capital": 25000,
-  "last_run_date": "2026-08-14",
+  "last_run_date": "2026-08-17",
   "open_positions": {
-    "VZ": {
-      "ticker": "VZ",
-      "shares": 95,
-      "entry_price": 46.37969970703125,
-      "entry_date": "2026-07-27",
-      "stop_price": 43.81424602188123,
-      "initial_stop_price": 43.81424602188123,
-      "target_price": 52.79333391990629,
-      "signal_type": "breakout",
-      "max_holding_days": 15,
-      "use_trailing_stop": false,
-      "trail_distance": 2.5654536851500165,
-      "trailing_activation_price": Infinity,
-      "highest_price": 46.37969970703125,
-      "trailing_active": false,
-      "days_held": 14
-    },
     "KO": {
       "ticker": "KO",
       "shares": 61,
@@ -35,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 88.6500015258789,
       "trailing_active": false,
-      "days_held": 12
+      "days_held": 13
     },
     "ADBE": {
       "ticker": "ADBE",
@@ -52,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 249.99000549316406,
       "trailing_active": false,
-      "days_held": 12
+      "days_held": 13
     },
     "MSFT": {
       "ticker": "MSFT",
@@ -69,7 +52,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 449.5849914550781,
       "trailing_active": false,
-      "days_held": 10
+      "days_held": 11
     },
     "DIS": {
       "ticker": "DIS",
@@ -86,7 +69,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 102.54000091552734,
       "trailing_active": false,
-      "days_held": 6
+      "days_held": 7
     }
   },
   "pending_entries": {},
@@ -114,6 +97,18 @@
       "exit_reason": "intraday_stop",
       "pnl": -360.2001953125,
       "r_multiple": -1.0383230070660916
+    },
+    {
+      "ticker": "VZ",
+      "signal_type": "breakout",
+      "entry_date": "2026-07-27",
+      "exit_date": "2026-08-17",
+      "shares": 95,
+      "entry_price": 46.37969970703125,
+      "exit_price": 48.2400016784668,
+      "exit_reason": "time_stop",
+      "pnl": 176.72868728637695,
+      "r_multiple": 0.7251356678952336
     }
   ],
   "equity_history": [
@@ -271,6 +266,11 @@
       "date": "2026-08-14",
       "strategy_equity": 25293.273021697998,
       "benchmark_equity": 25941.97903594325
+    },
+    {
+      "date": "2026-08-17",
+      "strategy_equity": 24819.793704986572,
+      "benchmark_equity": 25737.446457489692
     }
   ],
   "benchmark_shares": {
