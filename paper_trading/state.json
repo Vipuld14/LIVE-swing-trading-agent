@@ -1,7 +1,7 @@
 {
   "cash": 7401.163524627686,
   "initial_capital": 25000,
-  "last_run_date": "2026-08-17",
+  "last_run_date": "2026-08-18",
   "open_positions": {
     "KO": {
       "ticker": "KO",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 88.6500015258789,
       "trailing_active": false,
-      "days_held": 13
+      "days_held": 14
     },
     "ADBE": {
       "ticker": "ADBE",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 249.99000549316406,
       "trailing_active": false,
-      "days_held": 13
+      "days_held": 14
     },
     "MSFT": {
       "ticker": "MSFT",
@@ -52,7 +52,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 449.5849914550781,
       "trailing_active": false,
-      "days_held": 11
+      "days_held": 12
     },
     "DIS": {
       "ticker": "DIS",
@@ -69,10 +69,17 @@
       "trailing_activation_price": Infinity,
       "highest_price": 102.54000091552734,
       "trailing_active": false,
-      "days_held": 7
+      "days_held": 8
     }
   },
-  "pending_entries": {},
+  "pending_entries": {
+    "XOM": {
+      "ticker": "XOM",
+      "signal_date": "2026-08-18",
+      "signal_type": "breakout",
+      "atr_at_signal": 3.6518426906021566
+    }
+  },
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -271,6 +278,11 @@
       "date": "2026-08-17",
       "strategy_equity": 24819.793704986572,
       "benchmark_equity": 25737.446457489692
+    },
+    {
+      "date": "2026-08-18",
+      "strategy_equity": 25058.993503570557,
+      "benchmark_equity": 25828.199659839007
     }
   ],
   "benchmark_shares": {
