@@ -1,42 +1,8 @@
 {
-  "cash": 7401.163524627686,
+  "cash": 9282.648235321045,
   "initial_capital": 25000,
-  "last_run_date": "2026-08-18",
+  "last_run_date": "2026-08-19",
   "open_positions": {
-    "KO": {
-      "ticker": "KO",
-      "shares": 61,
-      "entry_price": 88.6500015258789,
-      "entry_date": "2026-07-29",
-      "stop_price": 84.64148808088058,
-      "initial_stop_price": 84.64148808088058,
-      "target_price": 98.67128513837473,
-      "signal_type": "breakout",
-      "max_holding_days": 15,
-      "use_trailing_stop": false,
-      "trail_distance": 4.008513444998327,
-      "trailing_activation_price": Infinity,
-      "highest_price": 88.6500015258789,
-      "trailing_active": false,
-      "days_held": 14
-    },
-    "ADBE": {
-      "ticker": "ADBE",
-      "shares": 10,
-      "entry_price": 249.99000549316406,
-      "entry_date": "2026-07-29",
-      "stop_price": 227.64819808317233,
-      "initial_stop_price": 227.64819808317233,
-      "target_price": 305.8445240181434,
-      "signal_type": "breakout",
-      "max_holding_days": 15,
-      "use_trailing_stop": false,
-      "trail_distance": 22.341807409991727,
-      "trailing_activation_price": Infinity,
-      "highest_price": 249.99000549316406,
-      "trailing_active": false,
-      "days_held": 14
-    },
     "MSFT": {
       "ticker": "MSFT",
       "shares": 7,
@@ -52,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 449.5849914550781,
       "trailing_active": false,
-      "days_held": 12
+      "days_held": 13
     },
     "DIS": {
       "ticker": "DIS",
@@ -69,15 +35,32 @@
       "trailing_activation_price": Infinity,
       "highest_price": 102.54000091552734,
       "trailing_active": false,
-      "days_held": 8
+      "days_held": 9
+    },
+    "XOM": {
+      "ticker": "XOM",
+      "shares": 37,
+      "entry_price": 166.06500244140625,
+      "entry_date": "2026-08-19",
+      "stop_price": 158.76131706020195,
+      "initial_stop_price": 158.76131706020195,
+      "target_price": 184.32421589441702,
+      "signal_type": "breakout",
+      "max_holding_days": 15,
+      "use_trailing_stop": false,
+      "trail_distance": 7.303685381204313,
+      "trailing_activation_price": Infinity,
+      "highest_price": 166.06500244140625,
+      "trailing_active": false,
+      "days_held": 0
     }
   },
   "pending_entries": {
-    "XOM": {
-      "ticker": "XOM",
-      "signal_date": "2026-08-18",
+    "PFE": {
+      "ticker": "PFE",
+      "signal_date": "2026-08-19",
       "signal_type": "breakout",
-      "atr_at_signal": 3.6518426906021566
+      "atr_at_signal": 0.5883424903223831
     }
   },
   "closed_trades": [
@@ -116,6 +99,30 @@
       "exit_reason": "time_stop",
       "pnl": 176.72868728637695,
       "r_multiple": 0.7251356678952336
+    },
+    {
+      "ticker": "KO",
+      "signal_type": "breakout",
+      "entry_date": "2026-07-29",
+      "exit_date": "2026-08-19",
+      "shares": 61,
+      "entry_price": 88.6500015258789,
+      "exit_price": 88.58999633789062,
+      "exit_reason": "time_stop",
+      "pnl": -3.6603164672851562,
+      "r_multiple": -0.014969436628222728
+    },
+    {
+      "ticker": "ADBE",
+      "signal_type": "breakout",
+      "entry_date": "2026-07-29",
+      "exit_date": "2026-08-19",
+      "shares": 10,
+      "entry_price": 249.99000549316406,
+      "exit_price": 262.19000244140625,
+      "exit_reason": "time_stop",
+      "pnl": 121.99996948242188,
+      "r_multiple": 0.5460613245992842
     }
   ],
   "equity_history": [
@@ -283,6 +290,11 @@
       "date": "2026-08-18",
       "strategy_equity": 25058.993503570557,
       "benchmark_equity": 25828.199659839007
+    },
+    {
+      "date": "2026-08-19",
+      "strategy_equity": 25185.108394622803,
+      "benchmark_equity": 25881.118650308126
     }
   ],
   "benchmark_shares": {
