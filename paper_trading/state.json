@@ -1,7 +1,7 @@
 {
-  "cash": 9282.648235321045,
+  "cash": 2982.648235321045,
   "initial_capital": 25000,
-  "last_run_date": "2026-08-19",
+  "last_run_date": "2026-08-20",
   "open_positions": {
     "MSFT": {
       "ticker": "MSFT",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 449.5849914550781,
       "trailing_active": false,
-      "days_held": 13
+      "days_held": 14
     },
     "DIS": {
       "ticker": "DIS",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 102.54000091552734,
       "trailing_active": false,
-      "days_held": 9
+      "days_held": 10
     },
     "XOM": {
       "ticker": "XOM",
@@ -52,17 +52,27 @@
       "trailing_activation_price": Infinity,
       "highest_price": 166.06500244140625,
       "trailing_active": false,
+      "days_held": 1
+    },
+    "PFE": {
+      "ticker": "PFE",
+      "shares": 225,
+      "entry_price": 28.0,
+      "entry_date": "2026-08-20",
+      "stop_price": 26.823315019355235,
+      "initial_stop_price": 26.823315019355235,
+      "target_price": 30.941712451611917,
+      "signal_type": "breakout",
+      "max_holding_days": 15,
+      "use_trailing_stop": false,
+      "trail_distance": 1.1766849806447661,
+      "trailing_activation_price": Infinity,
+      "highest_price": 28.0,
+      "trailing_active": false,
       "days_held": 0
     }
   },
-  "pending_entries": {
-    "PFE": {
-      "ticker": "PFE",
-      "signal_date": "2026-08-19",
-      "signal_type": "breakout",
-      "atr_at_signal": 0.5883424903223831
-    }
-  },
+  "pending_entries": {},
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -295,6 +305,11 @@
       "date": "2026-08-19",
       "strategy_equity": 25185.108394622803,
       "benchmark_equity": 25881.118650308126
+    },
+    {
+      "date": "2026-08-20",
+      "strategy_equity": 25190.198154449463,
+      "benchmark_equity": 25596.60024026476
     }
   ],
   "benchmark_shares": {
