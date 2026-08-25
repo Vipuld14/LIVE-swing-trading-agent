@@ -1,7 +1,7 @@
 {
   "cash": 6341.808269500732,
   "initial_capital": 25000,
-  "last_run_date": "2026-08-24",
+  "last_run_date": "2026-08-25",
   "open_positions": {
     "DIS": {
       "ticker": "DIS",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 102.54000091552734,
       "trailing_active": false,
-      "days_held": 12
+      "days_held": 13
     },
     "XOM": {
       "ticker": "XOM",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 166.06500244140625,
       "trailing_active": false,
-      "days_held": 3
+      "days_held": 4
     },
     "PFE": {
       "ticker": "PFE",
@@ -52,7 +52,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 28.0,
       "trailing_active": false,
-      "days_held": 2
+      "days_held": 3
     }
   },
   "pending_entries": {},
@@ -315,6 +315,11 @@
       "date": "2026-08-24",
       "strategy_equity": 25341.508264541626,
       "benchmark_equity": 25870.94399911288
+    },
+    {
+      "date": "2026-08-25",
+      "strategy_equity": 25388.738178253174,
+      "benchmark_equity": 25871.636682400032
     }
   ],
   "benchmark_shares": {
