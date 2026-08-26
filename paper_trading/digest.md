@@ -16,3 +16,6 @@
   Benchmark: $25871.64 (+3.49%)  (equal-weight buy-and-hold)
   Cash: $6341.81
   Closed trades so far: 6
+
+## Intraday check -- 2026-08-26 14:51 EDT
+  EXIT XOM: 37 sh @ $158.12 (intraday_stop), P&L $-293.82 (-1.09R)

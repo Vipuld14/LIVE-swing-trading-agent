@@ -1,5 +1,5 @@
 {
-  "cash": 6341.808269500732,
+  "cash": 12192.396007537842,
   "initial_capital": 25000,
   "last_run_date": "2026-08-25",
   "open_positions": {
@@ -19,23 +19,6 @@
       "highest_price": 102.54000091552734,
       "trailing_active": false,
       "days_held": 13
-    },
-    "XOM": {
-      "ticker": "XOM",
-      "shares": 37,
-      "entry_price": 166.06500244140625,
-      "entry_date": "2026-08-19",
-      "stop_price": 158.76131706020195,
-      "initial_stop_price": 158.76131706020195,
-      "target_price": 184.32421589441702,
-      "signal_type": "breakout",
-      "max_holding_days": 15,
-      "use_trailing_stop": false,
-      "trail_distance": 7.303685381204313,
-      "trailing_activation_price": Infinity,
-      "highest_price": 166.06500244140625,
-      "trailing_active": false,
-      "days_held": 4
     },
     "PFE": {
       "ticker": "PFE",
@@ -128,6 +111,18 @@
       "exit_reason": "time_stop",
       "pnl": 212.06509399414062,
       "r_multiple": 0.9527017018345574
+    },
+    {
+      "ticker": "XOM",
+      "signal_type": "breakout",
+      "entry_date": "2026-08-19",
+      "exit_date": "2026-08-26",
+      "shares": 37,
+      "entry_price": 166.06500244140625,
+      "exit_price": 158.12399291992188,
+      "exit_reason": "intraday_stop",
+      "pnl": -293.8173522949219,
+      "r_multiple": -1.087260623509358
     }
   ],
   "equity_history": [
