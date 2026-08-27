@@ -1,7 +1,7 @@
 {
   "cash": 12192.396007537842,
   "initial_capital": 25000,
-  "last_run_date": "2026-08-25",
+  "last_run_date": "2026-08-26",
   "open_positions": {
     "DIS": {
       "ticker": "DIS",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 102.54000091552734,
       "trailing_active": false,
-      "days_held": 13
+      "days_held": 14
     },
     "PFE": {
       "ticker": "PFE",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 28.0,
       "trailing_active": false,
-      "days_held": 3
+      "days_held": 4
     }
   },
   "pending_entries": {},
@@ -315,6 +315,11 @@
       "date": "2026-08-25",
       "strategy_equity": 25388.738178253174,
       "benchmark_equity": 25871.636682400032
+    },
+    {
+      "date": "2026-08-26",
+      "strategy_equity": 25137.695671081543,
+      "benchmark_equity": 25881.647105513915
     }
   ],
   "benchmark_shares": {
