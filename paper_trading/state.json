@@ -1,25 +1,8 @@
 {
-  "cash": 12192.396007537842,
+  "cash": 18719.195934295654,
   "initial_capital": 25000,
-  "last_run_date": "2026-08-26",
+  "last_run_date": "2026-08-27",
   "open_positions": {
-    "DIS": {
-      "ticker": "DIS",
-      "shares": 60,
-      "entry_price": 102.54000091552734,
-      "entry_date": "2026-08-06",
-      "stop_price": 97.67932682984119,
-      "initial_stop_price": 97.67932682984119,
-      "target_price": 114.69168612974272,
-      "signal_type": "breakout",
-      "max_holding_days": 15,
-      "use_trailing_stop": false,
-      "trail_distance": 4.860674085686151,
-      "trailing_activation_price": Infinity,
-      "highest_price": 102.54000091552734,
-      "trailing_active": false,
-      "days_held": 14
-    },
     "PFE": {
       "ticker": "PFE",
       "shares": 225,
@@ -35,10 +18,17 @@
       "trailing_activation_price": Infinity,
       "highest_price": 28.0,
       "trailing_active": false,
-      "days_held": 4
+      "days_held": 5
     }
   },
-  "pending_entries": {},
+  "pending_entries": {
+    "ADBE": {
+      "ticker": "ADBE",
+      "signal_date": "2026-08-27",
+      "signal_type": "breakout",
+      "atr_at_signal": 10.884030987065442
+    }
+  },
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -123,6 +113,18 @@
       "exit_reason": "intraday_stop",
       "pnl": -293.8173522949219,
       "r_multiple": -1.087260623509358
+    },
+    {
+      "ticker": "DIS",
+      "signal_type": "breakout",
+      "entry_date": "2026-08-06",
+      "exit_date": "2026-08-27",
+      "shares": 60,
+      "entry_price": 102.54000091552734,
+      "exit_price": 108.77999877929688,
+      "exit_reason": "time_stop",
+      "pnl": 374.3998718261719,
+      "r_multiple": 1.2837721175639496
     }
   ],
   "equity_history": [
@@ -320,6 +322,11 @@
       "date": "2026-08-26",
       "strategy_equity": 25137.695671081543,
       "benchmark_equity": 25881.647105513915
+    },
+    {
+      "date": "2026-08-27",
+      "strategy_equity": 25023.69603729248,
+      "benchmark_equity": 25747.927858022438
     }
   ],
   "benchmark_shares": {

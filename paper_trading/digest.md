@@ -1,17 +1,17 @@
-# Paper trading digest -- 2026-08-26
+# Paper trading digest -- 2026-08-27
 
 ## Today's activity
-  (no exits or entries)
+[2026-08-27]
+  EXIT DIS: 60 sh @ $108.78 (time_stop), P&L $+374.40 (+1.28R)
 
 ## Open positions
-  DIS: 60 sh @ $102.54 (breakout), stop $97.68, held 14/15 days
-  PFE: 225 sh @ $28.00 (breakout), stop $26.82, held 4/15 days
+  PFE: 225 sh @ $28.00 (breakout), stop $26.82, held 5/15 days
 
 ## Watching for tomorrow's open
-  (no new signals today)
+  ADBE (breakout)
 
 ## Running P&L since paper trading started
-  Strategy:  $25137.70 (+0.55%)
-  Benchmark: $25881.65 (+3.53%)  (equal-weight buy-and-hold)
-  Cash: $12192.40
-  Closed trades so far: 7
+  Strategy:  $25023.70 (+0.09%)
+  Benchmark: $25747.93 (+2.99%)  (equal-weight buy-and-hold)
+  Cash: $18719.20
+  Closed trades so far: 8
