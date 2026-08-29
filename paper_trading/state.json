@@ -1,7 +1,7 @@
 {
-  "cash": 18719.195934295654,
+  "cash": 12663.320934295654,
   "initial_capital": 25000,
-  "last_run_date": "2026-08-27",
+  "last_run_date": "2026-08-28",
   "open_positions": {
     "PFE": {
       "ticker": "PFE",
@@ -18,17 +18,27 @@
       "trailing_activation_price": Infinity,
       "highest_price": 28.0,
       "trailing_active": false,
-      "days_held": 5
-    }
-  },
-  "pending_entries": {
+      "days_held": 6
+    },
     "ADBE": {
       "ticker": "ADBE",
-      "signal_date": "2026-08-27",
+      "shares": 21,
+      "entry_price": 288.375,
+      "entry_date": "2026-08-28",
+      "stop_price": 266.6069380258691,
+      "initial_stop_price": 266.6069380258691,
+      "target_price": 342.7951549353272,
       "signal_type": "breakout",
-      "atr_at_signal": 10.884030987065442
+      "max_holding_days": 15,
+      "use_trailing_stop": false,
+      "trail_distance": 21.768061974130884,
+      "trailing_activation_price": Infinity,
+      "highest_price": 288.375,
+      "trailing_active": false,
+      "days_held": 0
     }
   },
+  "pending_entries": {},
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -327,6 +337,11 @@
       "date": "2026-08-27",
       "strategy_equity": 25023.69603729248,
       "benchmark_equity": 25747.927858022438
+    },
+    {
+      "date": "2026-08-28",
+      "strategy_equity": 25076.24049758911,
+      "benchmark_equity": 25811.86824362258
     }
   ],
   "benchmark_shares": {
