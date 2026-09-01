@@ -1,7 +1,7 @@
 {
   "cash": 12663.320934295654,
   "initial_capital": 25000,
-  "last_run_date": "2026-08-31",
+  "last_run_date": "2026-09-01",
   "open_positions": {
     "PFE": {
       "ticker": "PFE",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 28.0,
       "trailing_active": false,
-      "days_held": 7
+      "days_held": 8
     },
     "ADBE": {
       "ticker": "ADBE",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 288.375,
       "trailing_active": false,
-      "days_held": 1
+      "days_held": 2
     }
   },
   "pending_entries": {},
@@ -347,6 +347,11 @@
       "date": "2026-08-31",
       "strategy_equity": 25215.41090774536,
       "benchmark_equity": 25788.038185475743
+    },
+    {
+      "date": "2026-09-01",
+      "strategy_equity": 25094.750480651855,
+      "benchmark_equity": 25680.057566557185
     }
   ],
   "benchmark_shares": {
