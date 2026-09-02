@@ -1,7 +1,7 @@
 {
   "cash": 12663.320934295654,
   "initial_capital": 25000,
-  "last_run_date": "2026-09-01",
+  "last_run_date": "2026-09-02",
   "open_positions": {
     "PFE": {
       "ticker": "PFE",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 28.0,
       "trailing_active": false,
-      "days_held": 8
+      "days_held": 9
     },
     "ADBE": {
       "ticker": "ADBE",
@@ -35,10 +35,17 @@
       "trailing_activation_price": Infinity,
       "highest_price": 288.375,
       "trailing_active": false,
-      "days_held": 2
+      "days_held": 3
     }
   },
-  "pending_entries": {},
+  "pending_entries": {
+    "JNJ": {
+      "ticker": "JNJ",
+      "signal_date": "2026-09-02",
+      "signal_type": "breakout",
+      "atr_at_signal": 5.708633425884211
+    }
+  },
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -352,6 +359,11 @@
       "date": "2026-09-01",
       "strategy_equity": 25094.750480651855,
       "benchmark_equity": 25680.057566557185
+    },
+    {
+      "date": "2026-09-02",
+      "strategy_equity": 25068.41121673584,
+      "benchmark_equity": 25761.642852640343
     }
   ],
   "benchmark_shares": {
