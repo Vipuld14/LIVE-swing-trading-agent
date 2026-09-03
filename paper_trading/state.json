@@ -1,7 +1,7 @@
 {
-  "cash": 12663.320934295654,
+  "cash": 6562.280773162842,
   "initial_capital": 25000,
-  "last_run_date": "2026-09-02",
+  "last_run_date": "2026-09-03",
   "open_positions": {
     "PFE": {
       "ticker": "PFE",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 28.0,
       "trailing_active": false,
-      "days_held": 9
+      "days_held": 10
     },
     "ADBE": {
       "ticker": "ADBE",
@@ -35,17 +35,27 @@
       "trailing_activation_price": Infinity,
       "highest_price": 288.375,
       "trailing_active": false,
-      "days_held": 3
-    }
-  },
-  "pending_entries": {
+      "days_held": 4
+    },
     "JNJ": {
       "ticker": "JNJ",
-      "signal_date": "2026-09-02",
+      "shares": 22,
+      "entry_price": 277.32000732421875,
+      "entry_date": "2026-09-03",
+      "stop_price": 265.9027404724503,
+      "initial_stop_price": 265.9027404724503,
+      "target_price": 305.86317445363983,
       "signal_type": "breakout",
-      "atr_at_signal": 5.708633425884211
+      "max_holding_days": 15,
+      "use_trailing_stop": false,
+      "trail_distance": 11.417266851768423,
+      "trailing_activation_price": Infinity,
+      "highest_price": 277.32000732421875,
+      "trailing_active": false,
+      "days_held": 0
     }
   },
+  "pending_entries": {},
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -364,6 +374,11 @@
       "date": "2026-09-02",
       "strategy_equity": 25068.41121673584,
       "benchmark_equity": 25761.642852640343
+    },
+    {
+      "date": "2026-09-03",
+      "strategy_equity": 25170.740491867065,
+      "benchmark_equity": 25950.2435704906
     }
   ],
   "benchmark_shares": {
