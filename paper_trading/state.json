@@ -1,7 +1,7 @@
 {
-  "cash": 6562.280773162842,
+  "cash": 12161.026471706093,
   "initial_capital": 25000,
-  "last_run_date": "2026-09-03",
+  "last_run_date": "2026-09-04",
   "open_positions": {
     "PFE": {
       "ticker": "PFE",
@@ -18,24 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 28.0,
       "trailing_active": false,
-      "days_held": 10
-    },
-    "ADBE": {
-      "ticker": "ADBE",
-      "shares": 21,
-      "entry_price": 288.375,
-      "entry_date": "2026-08-28",
-      "stop_price": 266.6069380258691,
-      "initial_stop_price": 266.6069380258691,
-      "target_price": 342.7951549353272,
-      "signal_type": "breakout",
-      "max_holding_days": 15,
-      "use_trailing_stop": false,
-      "trail_distance": 21.768061974130884,
-      "trailing_activation_price": Infinity,
-      "highest_price": 288.375,
-      "trailing_active": false,
-      "days_held": 4
+      "days_held": 11
     },
     "JNJ": {
       "ticker": "JNJ",
@@ -52,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 277.32000732421875,
       "trailing_active": false,
-      "days_held": 0
+      "days_held": 1
     }
   },
   "pending_entries": {},
@@ -152,6 +135,18 @@
       "exit_reason": "time_stop",
       "pnl": 374.3998718261719,
       "r_multiple": 1.2837721175639496
+    },
+    {
+      "ticker": "ADBE",
+      "signal_type": "breakout",
+      "entry_date": "2026-08-28",
+      "exit_date": "2026-09-04",
+      "shares": 21,
+      "entry_price": 288.375,
+      "exit_price": 266.6069380258691,
+      "exit_reason": "stop",
+      "pnl": -457.12930145674864,
+      "r_multiple": -1.0
     }
   ],
   "equity_history": [
@@ -379,6 +374,11 @@
       "date": "2026-09-03",
       "strategy_equity": 25170.740491867065,
       "benchmark_equity": 25950.2435704906
+    },
+    {
+      "date": "2026-09-04",
+      "strategy_equity": 24617.33688506669,
+      "benchmark_equity": 25712.936908984684
     }
   ],
   "benchmark_shares": {
