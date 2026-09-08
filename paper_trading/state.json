@@ -1,7 +1,7 @@
 {
   "cash": 12161.026471706093,
   "initial_capital": 25000,
-  "last_run_date": "2026-09-04",
+  "last_run_date": "2026-09-08",
   "open_positions": {
     "PFE": {
       "ticker": "PFE",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 28.0,
       "trailing_active": false,
-      "days_held": 11
+      "days_held": 12
     },
     "JNJ": {
       "ticker": "JNJ",
@@ -35,10 +35,17 @@
       "trailing_activation_price": Infinity,
       "highest_price": 277.32000732421875,
       "trailing_active": false,
-      "days_held": 1
+      "days_held": 2
     }
   },
-  "pending_entries": {},
+  "pending_entries": {
+    "ORCL": {
+      "ticker": "ORCL",
+      "signal_date": "2026-09-08",
+      "signal_type": "breakout",
+      "atr_at_signal": 7.1390386118828095
+    }
+  },
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -379,6 +386,11 @@
       "date": "2026-09-04",
       "strategy_equity": 24617.33688506669,
       "benchmark_equity": 25712.936908984684
+    },
+    {
+      "date": "2026-09-08",
+      "strategy_equity": 24334.41657027787,
+      "benchmark_equity": 25570.290982938175
     }
   ],
   "benchmark_shares": {
