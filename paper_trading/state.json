@@ -1,7 +1,7 @@
 {
-  "cash": 6600.666699977577,
+  "cash": 12450.526990371483,
   "initial_capital": 25000,
-  "last_run_date": "2026-09-09",
+  "last_run_date": "2026-09-10",
   "open_positions": {
     "PFE": {
       "ticker": "PFE",
@@ -18,24 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 28.0,
       "trailing_active": false,
-      "days_held": 13
-    },
-    "JNJ": {
-      "ticker": "JNJ",
-      "shares": 22,
-      "entry_price": 277.32000732421875,
-      "entry_date": "2026-09-03",
-      "stop_price": 265.9027404724503,
-      "initial_stop_price": 265.9027404724503,
-      "target_price": 305.86317445363983,
-      "signal_type": "breakout",
-      "max_holding_days": 15,
-      "use_trailing_stop": false,
-      "trail_distance": 11.417266851768423,
-      "trailing_activation_price": Infinity,
-      "highest_price": 277.32000732421875,
-      "trailing_active": false,
-      "days_held": 3
+      "days_held": 14
     },
     "ORCL": {
       "ticker": "ORCL",
@@ -52,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 163.5399932861328,
       "trailing_active": false,
-      "days_held": 0
+      "days_held": 1
     }
   },
   "pending_entries": {},
@@ -163,6 +146,18 @@
       "exit_price": 266.6069380258691,
       "exit_reason": "stop",
       "pnl": -457.12930145674864,
+      "r_multiple": -1.0
+    },
+    {
+      "ticker": "JNJ",
+      "signal_type": "breakout",
+      "entry_date": "2026-09-03",
+      "exit_date": "2026-09-10",
+      "shares": 22,
+      "entry_price": 277.32000732421875,
+      "exit_price": 265.9027404724503,
+      "exit_reason": "stop",
+      "pnl": -251.1798707389055,
       "r_multiple": -1.0
     }
   ],
@@ -406,6 +401,11 @@
       "date": "2026-09-09",
       "strategy_equity": 24222.346725078285,
       "benchmark_equity": 25431.42792580911
+    },
+    {
+      "date": "2026-09-10",
+      "strategy_equity": 23871.736987548607,
+      "benchmark_equity": 25268.411090287467
     }
   ],
   "benchmark_shares": {
