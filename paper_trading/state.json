@@ -1,25 +1,8 @@
 {
-  "cash": 12450.526990371483,
+  "cash": 18705.526818710106,
   "initial_capital": 25000,
-  "last_run_date": "2026-09-10",
+  "last_run_date": "2026-09-11",
   "open_positions": {
-    "PFE": {
-      "ticker": "PFE",
-      "shares": 225,
-      "entry_price": 28.0,
-      "entry_date": "2026-08-20",
-      "stop_price": 26.823315019355235,
-      "initial_stop_price": 26.823315019355235,
-      "target_price": 30.941712451611917,
-      "signal_type": "breakout",
-      "max_holding_days": 15,
-      "use_trailing_stop": false,
-      "trail_distance": 1.1766849806447661,
-      "trailing_activation_price": Infinity,
-      "highest_price": 28.0,
-      "trailing_active": false,
-      "days_held": 14
-    },
     "ORCL": {
       "ticker": "ORCL",
       "shares": 34,
@@ -35,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 163.5399932861328,
       "trailing_active": false,
-      "days_held": 1
+      "days_held": 2
     }
   },
   "pending_entries": {},
@@ -159,6 +142,18 @@
       "exit_reason": "stop",
       "pnl": -251.1798707389055,
       "r_multiple": -1.0
+    },
+    {
+      "ticker": "PFE",
+      "signal_type": "breakout",
+      "entry_date": "2026-08-20",
+      "exit_date": "2026-09-11",
+      "shares": 225,
+      "entry_price": 28.0,
+      "exit_price": 27.799999237060547,
+      "exit_reason": "time_stop",
+      "pnl": -45.00017166137695,
+      "r_multiple": -0.16996967432172252
     }
   ],
   "equity_history": [
@@ -406,6 +401,11 @@
       "date": "2026-09-10",
       "strategy_equity": 23871.736987548607,
       "benchmark_equity": 25268.411090287467
+    },
+    {
+      "date": "2026-09-11",
+      "strategy_equity": 23815.0467772062,
+      "benchmark_equity": 25403.09901222827
     }
   ],
   "benchmark_shares": {
