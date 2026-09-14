@@ -1,26 +1,8 @@
 {
-  "cash": 18705.526818710106,
+  "cash": 23583.506860214013,
   "initial_capital": 25000,
   "last_run_date": "2026-09-11",
-  "open_positions": {
-    "ORCL": {
-      "ticker": "ORCL",
-      "shares": 34,
-      "entry_price": 163.5399932861328,
-      "entry_date": "2026-09-09",
-      "stop_price": 149.2619160623672,
-      "initial_stop_price": 149.2619160623672,
-      "target_price": 199.23518634554685,
-      "signal_type": "breakout",
-      "max_holding_days": 15,
-      "use_trailing_stop": false,
-      "trail_distance": 14.278077223765619,
-      "trailing_activation_price": Infinity,
-      "highest_price": 163.5399932861328,
-      "trailing_active": false,
-      "days_held": 2
-    }
-  },
+  "open_positions": {},
   "pending_entries": {},
   "closed_trades": [
     {
@@ -154,6 +136,18 @@
       "exit_reason": "time_stop",
       "pnl": -45.00017166137695,
       "r_multiple": -0.16996967432172252
+    },
+    {
+      "ticker": "ORCL",
+      "signal_type": "breakout",
+      "entry_date": "2026-09-09",
+      "exit_date": "2026-09-14",
+      "shares": 34,
+      "entry_price": 163.5399932861328,
+      "exit_price": 143.47000122070312,
+      "exit_reason": "intraday_stop",
+      "pnl": -682.3797302246094,
+      "r_multiple": -1.405650897588894
     }
   ],
   "equity_history": [

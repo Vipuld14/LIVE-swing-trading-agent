@@ -15,3 +15,6 @@
   Benchmark: $25403.10 (+1.61%)  (equal-weight buy-and-hold)
   Cash: $18705.53
   Closed trades so far: 11
+
+## Intraday check -- 2026-09-14 15:45 EDT
+  EXIT ORCL: 34 sh @ $143.47 (intraday_stop), P&L $-682.38 (-1.41R)
