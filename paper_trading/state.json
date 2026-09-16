@@ -1,16 +1,27 @@
 {
-  "cash": 23583.506860214013,
+  "cash": 17991.166955428856,
   "initial_capital": 25000,
-  "last_run_date": "2026-09-15",
-  "open_positions": {},
-  "pending_entries": {
+  "last_run_date": "2026-09-16",
+  "open_positions": {
     "CVX": {
       "ticker": "CVX",
-      "signal_date": "2026-09-15",
+      "shares": 26,
+      "entry_price": 215.08999633789062,
+      "entry_date": "2026-09-16",
+      "stop_price": 206.2361051697756,
+      "initial_stop_price": 206.2361051697756,
+      "target_price": 237.22472425817816,
       "signal_type": "breakout",
-      "atr_at_signal": 4.426945584057505
+      "max_holding_days": 15,
+      "use_trailing_stop": false,
+      "trail_distance": 8.85389116811501,
+      "trailing_activation_price": Infinity,
+      "highest_price": 215.08999633789062,
+      "trailing_active": false,
+      "days_held": 0
     }
   },
+  "pending_entries": {},
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -417,6 +428,11 @@
       "date": "2026-09-15",
       "strategy_equity": 23583.506860214013,
       "benchmark_equity": 25237.4623458686
+    },
+    {
+      "date": "2026-09-16",
+      "strategy_equity": 23491.20678086831,
+      "benchmark_equity": 24948.632109862083
     }
   ],
   "benchmark_shares": {

@@ -1,16 +1,17 @@
-# Paper trading digest -- 2026-09-15
+# Paper trading digest -- 2026-09-16
 
 ## Today's activity
-  (no exits or entries)
+[2026-09-16]
+  ENTER CVX: 26 sh @ $215.09 (breakout), stop $206.24, target $237.22
 
 ## Open positions
-  (none)
+  CVX: 26 sh @ $215.09 (breakout), stop $206.24, held 0/15 days
 
 ## Watching for tomorrow's open
-  CVX (breakout)
+  (no new signals today)
 
 ## Running P&L since paper trading started
-  Strategy:  $23583.51 (-5.67%)
-  Benchmark: $25237.46 (+0.95%)  (equal-weight buy-and-hold)
-  Cash: $23583.51
+  Strategy:  $23491.21 (-6.04%)
+  Benchmark: $24948.63 (-0.21%)  (equal-weight buy-and-hold)
+  Cash: $17991.17
   Closed trades so far: 12
