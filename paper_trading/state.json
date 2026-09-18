@@ -1,7 +1,7 @@
 {
   "cash": 17991.166955428856,
   "initial_capital": 25000,
-  "last_run_date": "2026-09-17",
+  "last_run_date": "2026-09-18",
   "open_positions": {
     "CVX": {
       "ticker": "CVX",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 215.08999633789062,
       "trailing_active": false,
-      "days_held": 1
+      "days_held": 2
     }
   },
   "pending_entries": {},
@@ -438,6 +438,11 @@
       "date": "2026-09-17",
       "strategy_equity": 23491.987145858544,
       "benchmark_equity": 25062.078725286905
+    },
+    {
+      "date": "2026-09-18",
+      "strategy_equity": 23438.42681260659,
+      "benchmark_equity": 24923.239785127887
     }
   ],
   "benchmark_shares": {
