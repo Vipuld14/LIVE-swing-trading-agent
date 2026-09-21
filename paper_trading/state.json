@@ -1,26 +1,8 @@
 {
-  "cash": 17991.166955428856,
+  "cash": 23291.78682847573,
   "initial_capital": 25000,
   "last_run_date": "2026-09-18",
-  "open_positions": {
-    "CVX": {
-      "ticker": "CVX",
-      "shares": 26,
-      "entry_price": 215.08999633789062,
-      "entry_date": "2026-09-16",
-      "stop_price": 206.2361051697756,
-      "initial_stop_price": 206.2361051697756,
-      "target_price": 237.22472425817816,
-      "signal_type": "breakout",
-      "max_holding_days": 15,
-      "use_trailing_stop": false,
-      "trail_distance": 8.85389116811501,
-      "trailing_activation_price": Infinity,
-      "highest_price": 215.08999633789062,
-      "trailing_active": false,
-      "days_held": 2
-    }
-  },
+  "open_positions": {},
   "pending_entries": {},
   "closed_trades": [
     {
@@ -166,6 +148,18 @@
       "exit_reason": "intraday_stop",
       "pnl": -682.3797302246094,
       "r_multiple": -1.405650897588894
+    },
+    {
+      "ticker": "CVX",
+      "signal_type": "breakout",
+      "entry_date": "2026-09-16",
+      "exit_date": "2026-09-21",
+      "shares": 26,
+      "entry_price": 215.08999633789062,
+      "exit_price": 203.8699951171875,
+      "exit_reason": "intraday_stop",
+      "pnl": -291.72003173828125,
+      "r_multiple": -1.2672395681922366
     }
   ],
   "equity_history": [

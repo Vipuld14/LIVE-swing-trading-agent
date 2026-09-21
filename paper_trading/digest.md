@@ -14,3 +14,6 @@
   Benchmark: $24923.24 (-0.31%)  (equal-weight buy-and-hold)
   Cash: $17991.17
   Closed trades so far: 12
+
+## Intraday check -- 2026-09-21 15:53 EDT
+  EXIT CVX: 26 sh @ $203.87 (intraday_stop), P&L $-291.72 (-1.27R)
