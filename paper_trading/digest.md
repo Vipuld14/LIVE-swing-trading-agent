@@ -1,4 +1,4 @@
-# Paper trading digest -- 2026-09-28
+# Paper trading digest -- 2026-09-29
 
 ## Today's activity
   (no exits or entries)
