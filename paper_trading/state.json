@@ -1,9 +1,16 @@
 {
   "cash": 23291.78682847573,
   "initial_capital": 25000,
-  "last_run_date": "2026-10-02",
+  "last_run_date": "2026-10-05",
   "open_positions": {},
-  "pending_entries": {},
+  "pending_entries": {
+    "MSFT": {
+      "ticker": "MSFT",
+      "signal_date": "2026-10-05",
+      "signal_type": "breakout",
+      "atr_at_signal": 11.813305414394248
+    }
+  },
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -487,6 +494,11 @@
       "date": "2026-10-02",
       "strategy_equity": 23291.78682847573,
       "benchmark_equity": NaN
+    },
+    {
+      "date": "2026-10-05",
+      "strategy_equity": 23291.78682847573,
+      "benchmark_equity": 24501.637950042397
     }
   ],
   "benchmark_shares": {
