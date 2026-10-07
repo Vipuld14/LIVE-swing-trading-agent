@@ -1,16 +1,17 @@
-# Paper trading digest -- 2026-10-05
+# Paper trading digest -- 2026-10-06
 
 ## Today's activity
-  (no exits or entries)
+[2026-10-06]
+  ENTER MSFT: 10 sh @ $531.68 (breakout), stop $508.05, target $590.75
 
 ## Open positions
-  (none)
+  MSFT: 10 sh @ $531.68 (breakout), stop $508.05, held 0/15 days
 
 ## Watching for tomorrow's open
-  MSFT (breakout)
+  LIN (breakout)
 
 ## Running P&L since paper trading started
-  Strategy:  $23291.79 (-6.83%)
-  Benchmark: $24501.64 (-1.99%)  (equal-weight buy-and-hold)
-  Cash: $23291.79
+  Strategy:  $23267.99 (-6.93%)
+  Benchmark: $24704.33 (-1.18%)  (equal-weight buy-and-hold)
+  Cash: $17974.99
   Closed trades so far: 13
