@@ -1,7 +1,7 @@
 {
   "cash": 12579.046807723778,
   "initial_capital": 25000,
-  "last_run_date": "2026-10-12",
+  "last_run_date": "2026-10-13",
   "open_positions": {
     "MSFT": {
       "ticker": "MSFT",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 531.6799926757812,
       "trailing_active": false,
-      "days_held": 4
+      "days_held": 5
     },
     "LIN": {
       "ticker": "LIN",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 490.5400085449219,
       "trailing_active": false,
-      "days_held": 3
+      "days_held": 4
     }
   },
   "pending_entries": {},
@@ -552,6 +552,11 @@
       "date": "2026-10-12",
       "strategy_equity": 23351.397119003075,
       "benchmark_equity": 24882.43491754206
+    },
+    {
+      "date": "2026-10-13",
+      "strategy_equity": NaN,
+      "benchmark_equity": NaN
     }
   ],
   "benchmark_shares": {
