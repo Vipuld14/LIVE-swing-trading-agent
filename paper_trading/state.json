@@ -1,7 +1,7 @@
 {
   "cash": 12579.046807723778,
   "initial_capital": 25000,
-  "last_run_date": "2026-10-13",
+  "last_run_date": "2026-10-14",
   "open_positions": {
     "MSFT": {
       "ticker": "MSFT",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 531.6799926757812,
       "trailing_active": false,
-      "days_held": 5
+      "days_held": 6
     },
     "LIN": {
       "ticker": "LIN",
@@ -35,10 +35,23 @@
       "trailing_activation_price": Infinity,
       "highest_price": 490.5400085449219,
       "trailing_active": false,
-      "days_held": 4
+      "days_held": 5
     }
   },
-  "pending_entries": {},
+  "pending_entries": {
+    "PFE": {
+      "ticker": "PFE",
+      "signal_date": "2026-10-14",
+      "signal_type": "breakout",
+      "atr_at_signal": 0.5627377033541917
+    },
+    "PG": {
+      "ticker": "PG",
+      "signal_date": "2026-10-14",
+      "signal_type": "breakout",
+      "atr_at_signal": 2.5048803245068765
+    }
+  },
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -557,6 +570,11 @@
       "date": "2026-10-13",
       "strategy_equity": NaN,
       "benchmark_equity": NaN
+    },
+    {
+      "date": "2026-10-14",
+      "strategy_equity": 23335.646966415185,
+      "benchmark_equity": 24969.669876143933
     }
   ],
   "benchmark_shares": {
