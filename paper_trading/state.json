@@ -1,7 +1,7 @@
 {
   "cash": 1054.0569777066885,
   "initial_capital": 25000,
-  "last_run_date": "2026-10-21",
+  "last_run_date": "2026-10-22",
   "open_positions": {
     "MSFT": {
       "ticker": "MSFT",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 531.6799926757812,
       "trailing_active": false,
-      "days_held": 11
+      "days_held": 12
     },
     "LIN": {
       "ticker": "LIN",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 490.5400085449219,
       "trailing_active": false,
-      "days_held": 10
+      "days_held": 11
     },
     "PFE": {
       "ticker": "PFE",
@@ -52,7 +52,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 29.56999969482422,
       "trailing_active": false,
-      "days_held": 4
+      "days_held": 5
     },
     "PG": {
       "ticker": "PG",
@@ -69,10 +69,35 @@
       "trailing_activation_price": Infinity,
       "highest_price": 158.3249969482422,
       "trailing_active": false,
-      "days_held": 4
+      "days_held": 5
     }
   },
-  "pending_entries": {},
+  "pending_entries": {
+    "ADBE": {
+      "ticker": "ADBE",
+      "signal_date": "2026-10-22",
+      "signal_type": "breakout",
+      "atr_at_signal": 9.136814799563302
+    },
+    "PG": {
+      "ticker": "PG",
+      "signal_date": "2026-10-22",
+      "signal_type": "breakout",
+      "atr_at_signal": 3.0539989193633033
+    },
+    "HON": {
+      "ticker": "HON",
+      "signal_date": "2026-10-22",
+      "signal_type": "breakout",
+      "atr_at_signal": 4.931669984087157
+    },
+    "NEE": {
+      "ticker": "NEE",
+      "signal_date": "2026-10-22",
+      "signal_type": "breakout",
+      "atr_at_signal": 1.5801277876552884
+    }
+  },
   "closed_trades": [
     {
       "ticker": "DUK",
@@ -621,6 +646,11 @@
       "date": "2026-10-21",
       "strategy_equity": 23416.517123657006,
       "benchmark_equity": 25342.99530851604
+    },
+    {
+      "date": "2026-10-22",
+      "strategy_equity": 23832.796870666283,
+      "benchmark_equity": 25745.940750443664
     }
   ],
   "benchmark_shares": {
