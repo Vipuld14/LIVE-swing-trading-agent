@@ -1,7 +1,7 @@
 {
   "cash": 1054.0569777066885,
   "initial_capital": 25000,
-  "last_run_date": "2026-10-23",
+  "last_run_date": "2026-10-26",
   "open_positions": {
     "MSFT": {
       "ticker": "MSFT",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 531.6799926757812,
       "trailing_active": false,
-      "days_held": 13
+      "days_held": 14
     },
     "LIN": {
       "ticker": "LIN",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 490.5400085449219,
       "trailing_active": false,
-      "days_held": 12
+      "days_held": 13
     },
     "PFE": {
       "ticker": "PFE",
@@ -52,7 +52,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 29.56999969482422,
       "trailing_active": false,
-      "days_held": 6
+      "days_held": 7
     },
     "PG": {
       "ticker": "PG",
@@ -69,7 +69,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 158.3249969482422,
       "trailing_active": false,
-      "days_held": 6
+      "days_held": 7
     }
   },
   "pending_entries": {},
@@ -631,6 +631,11 @@
       "date": "2026-10-23",
       "strategy_equity": 23608.91721673562,
       "benchmark_equity": 25586.33557262014
+    },
+    {
+      "date": "2026-10-26",
+      "strategy_equity": NaN,
+      "benchmark_equity": NaN
     }
   ],
   "benchmark_shares": {
