@@ -1,7 +1,7 @@
 {
   "cash": NaN,
   "initial_capital": 25000,
-  "last_run_date": "2026-10-29",
+  "last_run_date": "2026-10-30",
   "open_positions": {
     "PFE": {
       "ticker": "PFE",
@@ -18,7 +18,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 29.56999969482422,
       "trailing_active": false,
-      "days_held": 10
+      "days_held": 11
     },
     "PG": {
       "ticker": "PG",
@@ -35,7 +35,7 @@
       "trailing_activation_price": Infinity,
       "highest_price": 158.3249969482422,
       "trailing_active": false,
-      "days_held": 10
+      "days_held": 11
     }
   },
   "pending_entries": {},
@@ -639,6 +639,11 @@
     },
     {
       "date": "2026-10-29",
+      "strategy_equity": NaN,
+      "benchmark_equity": NaN
+    },
+    {
+      "date": "2026-10-30",
       "strategy_equity": NaN,
       "benchmark_equity": NaN
     }
